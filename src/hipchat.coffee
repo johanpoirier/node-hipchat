@@ -4,9 +4,7 @@ _           = require 'underscore'
 
 class HipChatClient
   
-  host:    'api.hipchat.com'
-
-  constructor: (@apikey, @agent) ->
+  constructor: (@apikey, @agent, @host) ->
     @rateLimits =
       limit: 0
       remaining: 0
