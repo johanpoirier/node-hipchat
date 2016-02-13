@@ -71,7 +71,7 @@ class HipChatClient
   
     options = @_prepareOptions
       method: 'post'
-      path:   '/v1/rooms/message'
+      path:   '/v2/rooms/notification'
       data: data
 
     @_sendRequest options, callback
