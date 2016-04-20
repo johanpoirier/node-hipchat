@@ -1,6 +1,6 @@
 {
 	"name": "node-hipchat-plus",
-	"version": "0.5.0",
+	"version": "0.5.2",
 	"description": "HipChat API library for node.js",
 	"main": "lib/hipchat.js",
 	"licenses": [{
